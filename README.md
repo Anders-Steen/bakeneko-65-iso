@@ -3,6 +3,7 @@ I want to make my own version of Bakenko 65%. I want to add an MCU, nice_nano or
 Make it wireless.
 [] Decide on a ISO layout
 [] Replace daughterboard with mcu+interface
+[] Update PCB
 [] Update case
 
 # Bakeneko 65 V3
