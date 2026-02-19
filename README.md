@@ -1,3 +1,10 @@
+## ⚠️ Warning not finished ⚠️
+I want to make my own version of Bakenko 65%. I want to add an MCU, nice_nano or Xiao.
+Make it wireless.
+[] Decide on a ISO layout
+[] Replace daughterboard with mcu+interface
+[] Update case
+
 # Bakeneko 65 V3
 
 A simple 65% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini. See also the [introduction video](https://youtu.be/o677NcIUri4).
