@@ -5,11 +5,9 @@
 	(uuid "287514b3-fc8e-4781-96ec-6e4b29b57f7d")
 	(paper "A3")
 	(title_block
-		(title "Bakeneko 65 V3")
-		(date "2020-08-01")
-		(rev "1")
-		(comment 1 "Copyright © 2020 kkatano")
-		(comment 2 "MIT License")
+		(title "Bakeneko 65 V4 ISO")
+		(date "2026-04-06")
+		(comment 1 "MIT License")
 	)
 	(lib_symbols
 		(symbol "Battery_Management:MCP73831-2-OT"
@@ -1078,6 +1076,289 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6146,6 +6427,10 @@
 		(uuid "a424702d-0982-4dd5-af1d-bfbc1608034f")
 	)
 	(no_connect
+		(at 215.9 92.71)
+		(uuid "a607ca41-1217-491d-a3e9-0ca4bff8a8a5")
+	)
+	(no_connect
 		(at 182.88 232.41)
 		(uuid "a8ae75c3-ec80-4097-94bd-1de1c7997014")
 	)
@@ -8133,7 +8418,7 @@
 			)
 		)
 	)
-	(global_label "COL9"
+	(global_label "COL6"
 		(shape input)
 		(at 248.92 212.09 0)
 		(effects
@@ -8155,7 +8440,7 @@
 			)
 		)
 	)
-	(global_label "COL8"
+	(global_label "COL7"
 		(shape input)
 		(at 182.88 179.07 180)
 		(effects
@@ -8177,7 +8462,7 @@
 			)
 		)
 	)
-	(global_label "COL7"
+	(global_label "COL8"
 		(shape input)
 		(at 182.88 176.53 180)
 		(effects
@@ -8309,7 +8594,7 @@
 			)
 		)
 	)
-	(global_label "COL10"
+	(global_label "COL5"
 		(shape input)
 		(at 248.92 207.01 0)
 		(effects
@@ -8353,7 +8638,7 @@
 			)
 		)
 	)
-	(global_label "COL6"
+	(global_label "COL9"
 		(shape input)
 		(at 182.88 171.45 180)
 		(effects
@@ -8441,7 +8726,7 @@
 			)
 		)
 	)
-	(global_label "COL5"
+	(global_label "COL10"
 		(shape input)
 		(at 182.88 212.09 180)
 		(effects
@@ -9480,6 +9765,84 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_26")
+		(lib_id "power:GND")
+		(at 166.37 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3465477a-df1a-426a-b326-14cccb5bba28")
+		(property "Reference" "#PWR034"
+			(at 172.72 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.942 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22702378-5766-4ec4-9d32-3e0efdf0dbb0")
+		)
+		(instances
+			(project "bakenko_65_iso"
+				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Regulator_Linear:XC6206PxxxMR")
 		(at 95.25 73.66 0)
 		(unit 1)
@@ -9887,7 +10250,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
+		(lib_id "Device:Crystal_GND24")
 		(at 161.29 124.46 90)
 		(unit 1)
 		(body_style 1)
@@ -9930,7 +10293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C187794.pdf"
 			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9941,7 +10304,7 @@
 				)
 			)
 		)
-		(property "Description" "XTAL SMD 2016, 32 MHz, Cl=8 pF, Total Tol: ±40 ppm"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9957,6 +10320,12 @@
 		)
 		(pin "2"
 			(uuid "b37d7f90-1d2d-441c-93c9-1e5b3a6d9511")
+		)
+		(pin "4"
+			(uuid "1e5546d1-4c67-466c-a2ed-0139b9674ca6")
+		)
+		(pin "3"
+			(uuid "ef9c8def-04bd-4482-9ec9-6e3b4e7207e8")
 		)
 		(instances
 			(project "bakenko_65_iso"
@@ -11515,85 +11884,6 @@
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_2")
-		(lib_id "power:GND")
-		(at 215.9 92.71 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e43b2d5-049d-4c31-837e-5c1e51aea221")
-		(property "Reference" "#PWR03"
-			(at 215.9 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a413cf2c-9fe2-44c6-b493-9f3356fb1995")
-		)
-		(instances
-			(project "bakenko_65_iso"
-				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)

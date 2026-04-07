@@ -1,28 +1,27 @@
 ## ⚠️ Warning not finished ⚠️
-I want to make my own version of Bakenko 65%. I want to add an MCU, nice_nano or Xiao.
+I want to make my own ISO version of the Bakenko 65%.
 Make it wireless.
-[] Decide on a ISO layout
-[] Replace daughterboard with mcu+interface
-[] Update PCB
-[] Update case
+[X] Decide on a ISO layout
+[] ~ Replace daughterboard with mcu+interface ~
+[X] Update PCB
+[] ~ Update case ~ 
 
-# Bakeneko 65 V3
+# Bakeneko 65 V4 - ISO
 
 A simple 65% keyboard for DIYers. This project is a special homage to TGR x Singa UNIKORN 60 and OTD 356 Mini. See also the [introduction video](https://youtu.be/o677NcIUri4).
 
-![Bakeneko 65](./image/bakeneko-65.jpg)
 
 ## Features
 
 - Single piece tray case
 - O-ring gasket mount (Friction fit)
 - [Unified Daughterboard](https://github.com/ai03-2725/Unified-Daughterboard)
-- QMK firmware and VIA
-- PCB designed with KiCAD 5.1.4
+- ~QMK firmware and VIA~ ZMK
+- PCB designed with KiCAD ~5.1.4~ 10.0
 
-## Layouts
+## Layout
 
-![Bakeneko 65 layouts](./image/keyboard-layout.png)
+![Bakeneko 65 layouts](/image/keyboard-layout.png)
 
 ## Specs
 
@@ -34,6 +33,7 @@ A simple 65% keyboard for DIYers. This project is a special homage to TGR x Sing
   - PLA Case: 390g
   - Aluminum Case: 760g
 - O-ring gasket: VMQ-50(Silicone 50 duro) AS568-264
+- MCU: NRF52840
 
 ## Notes
 - Old files (v1) are no longer available. See [geekhack post](https://geekhack.org/index.php?topic=107316.msg2974824#msg2974824) for the context

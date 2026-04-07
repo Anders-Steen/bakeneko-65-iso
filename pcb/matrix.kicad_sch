@@ -392,6 +392,12 @@
 		(uuid "28251270-4097-43a9-9d48-54713469ebfd")
 	)
 	(junction
+		(at 59.69 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28f95352-623d-47a1-abff-80f884f040f2")
+	)
+	(junction
 		(at 111.76 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -582,6 +588,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77448694-aa16-49f5-89dd-6865b654c2fa")
+	)
+	(junction
+		(at 69.85 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78394e26-b2fb-4eb6-94be-74876bc08f05")
 	)
 	(junction
 		(at 139.7 64.77)
@@ -1723,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 74.93) (xy 59.69 110.49)
+			(xy 59.69 74.93) (xy 59.69 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1860,6 +1872,16 @@
 			(type default)
 		)
 		(uuid "ac376275-47f0-404b-9cfa-61c4e763f526")
+	)
+	(wire
+		(pts
+			(xy 59.69 92.71) (xy 59.69 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad13466b-910c-4a1a-8b73-192f33ab3db3")
 	)
 	(wire
 		(pts
@@ -2083,6 +2105,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 100.33) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cd8685-47e3-4728-ae4f-a94aa431c359")
+	)
+	(wire
+		(pts
 			(xy 237.49 118.11) (xy 251.46 118.11)
 		)
 		(stroke
@@ -2283,7 +2315,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 100.33) (xy 83.82 100.33)
+			(xy 55.88 100.33) (xy 69.85 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2778,7 +2810,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2803,7 +2835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.5U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.5u"
 			(at 50.8 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -2857,7 +2889,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -2882,7 +2914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 106.68 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -2936,12 +2968,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970b7")
-		(property "Reference" "MX64"
+		(property "Reference" "MX65"
 			(at 204.47 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +2993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 204.47 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3002,7 +3034,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX64")
+					(reference "MX65")
 					(unit 1)
 				)
 			)
@@ -3015,7 +3047,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3040,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.75U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u"
 			(at 50.8 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3094,7 +3126,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3119,7 +3151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2.25U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 50.8 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3177,7 +3209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970d6")
-		(property "Reference" "D68"
+		(property "Reference" "D69"
 			(at 245.11 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3251,7 +3283,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D68")
+					(reference "D69")
 					(unit 1)
 				)
 			)
@@ -3264,12 +3296,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970dc")
-		(property "Reference" "MX67"
+		(property "Reference" "MX68"
 			(at 246.38 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3289,7 +3321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 246.38 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3330,7 +3362,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX67")
+					(reference "MX68")
 					(unit 1)
 				)
 			)
@@ -3347,7 +3379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970e5")
-		(property "Reference" "D67"
+		(property "Reference" "D68"
 			(at 231.14 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3421,7 +3453,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D67")
+					(reference "D68")
 					(unit 1)
 				)
 			)
@@ -3434,12 +3466,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970eb")
-		(property "Reference" "MX66"
+		(property "Reference" "MX67"
 			(at 232.41 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3459,7 +3491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 232.41 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3500,7 +3532,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX66")
+					(reference "MX67")
 					(unit 1)
 				)
 			)
@@ -3517,7 +3549,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970f4")
-		(property "Reference" "D66"
+		(property "Reference" "D67"
 			(at 217.17 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3591,7 +3623,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D66")
+					(reference "D67")
 					(unit 1)
 				)
 			)
@@ -3604,12 +3636,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4970fa")
-		(property "Reference" "MX65"
+		(property "Reference" "MX66"
 			(at 218.44 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +3661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 218.44 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3670,7 +3702,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX65")
+					(reference "MX66")
 					(unit 1)
 				)
 			)
@@ -3687,7 +3719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497103")
-		(property "Reference" "D65"
+		(property "Reference" "D66"
 			(at 203.2 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3793,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D65")
+					(reference "D66")
 					(unit 1)
 				)
 			)
@@ -3778,7 +3810,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497124")
-		(property "Reference" "D64"
+		(property "Reference" "D65"
 			(at 175.26 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3852,7 +3884,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D64")
+					(reference "D65")
 					(unit 1)
 				)
 			)
@@ -3865,12 +3897,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49712d")
-		(property "Reference" "MX63"
+		(property "Reference" "MX64"
 			(at 176.53 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3890,7 +3922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 176.53 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3931,7 +3963,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX63")
+					(reference "MX64")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3980,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497136")
-		(property "Reference" "D63"
+		(property "Reference" "D64"
 			(at 133.35 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4022,7 +4054,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D63")
+					(reference "D64")
 					(unit 1)
 				)
 			)
@@ -4039,7 +4071,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497145")
-		(property "Reference" "D62"
+		(property "Reference" "D63"
 			(at 77.47 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4145,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D62")
+					(reference "D63")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4162,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497154")
-		(property "Reference" "D61"
+		(property "Reference" "D62"
 			(at 63.5 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4204,7 +4236,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D61")
+					(reference "D62")
 					(unit 1)
 				)
 			)
@@ -4221,7 +4253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497164")
-		(property "Reference" "D60"
+		(property "Reference" "D61"
 			(at 49.53 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4295,7 +4327,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D60")
+					(reference "D61")
 					(unit 1)
 				)
 			)
@@ -4312,7 +4344,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497171")
-		(property "Reference" "D59"
+		(property "Reference" "D60"
 			(at 245.11 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4418,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D59")
+					(reference "D60")
 					(unit 1)
 				)
 			)
@@ -4399,12 +4431,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497179")
-		(property "Reference" "MX58"
+		(property "Reference" "MX59"
 			(at 246.38 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4424,7 +4456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 246.38 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4465,7 +4497,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX58")
+					(reference "MX59")
 					(unit 1)
 				)
 			)
@@ -4482,7 +4514,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497182")
-		(property "Reference" "D58"
+		(property "Reference" "D59"
 			(at 231.14 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4556,7 +4588,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D58")
+					(reference "D59")
 					(unit 1)
 				)
 			)
@@ -4569,12 +4601,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49718a")
-		(property "Reference" "MX57"
+		(property "Reference" "MX58"
 			(at 232.41 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 232.41 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4635,7 +4667,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX57")
+					(reference "MX58")
 					(unit 1)
 				)
 			)
@@ -4652,7 +4684,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497193")
-		(property "Reference" "D57"
+		(property "Reference" "D58"
 			(at 217.17 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4758,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D57")
+					(reference "D58")
 					(unit 1)
 				)
 			)
@@ -4739,12 +4771,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49719b")
-		(property "Reference" "MX56"
+		(property "Reference" "MX57"
 			(at 218.44 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4764,7 +4796,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.75U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.75u"
 			(at 218.44 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4805,7 +4837,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX56")
+					(reference "MX57")
 					(unit 1)
 				)
 			)
@@ -4822,7 +4854,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971a4")
-		(property "Reference" "D56"
+		(property "Reference" "D57"
 			(at 203.2 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4896,7 +4928,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D56")
+					(reference "D57")
 					(unit 1)
 				)
 			)
@@ -4909,12 +4941,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971ac")
-		(property "Reference" "MX55"
+		(property "Reference" "MX56"
 			(at 204.47 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4966,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 204.47 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -4975,7 +5007,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX55")
+					(reference "MX56")
 					(unit 1)
 				)
 			)
@@ -4992,7 +5024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971b5")
-		(property "Reference" "D55"
+		(property "Reference" "D56"
 			(at 189.23 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5066,7 +5098,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D55")
+					(reference "D56")
 					(unit 1)
 				)
 			)
@@ -5079,12 +5111,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971bd")
-		(property "Reference" "MX54"
+		(property "Reference" "MX55"
 			(at 190.5 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5104,7 +5136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 190.5 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5145,7 +5177,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX54")
+					(reference "MX55")
 					(unit 1)
 				)
 			)
@@ -5162,7 +5194,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971c6")
-		(property "Reference" "D54"
+		(property "Reference" "D55"
 			(at 175.26 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5236,7 +5268,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D54")
+					(reference "D55")
 					(unit 1)
 				)
 			)
@@ -5249,12 +5281,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971ce")
-		(property "Reference" "MX53"
+		(property "Reference" "MX54"
 			(at 176.53 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5274,7 +5306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 176.53 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5315,7 +5347,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX53")
+					(reference "MX54")
 					(unit 1)
 				)
 			)
@@ -5332,7 +5364,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971d7")
-		(property "Reference" "D53"
+		(property "Reference" "D54"
 			(at 161.29 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5438,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D53")
+					(reference "D54")
 					(unit 1)
 				)
 			)
@@ -5419,12 +5451,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971dd")
-		(property "Reference" "MX52"
+		(property "Reference" "MX53"
 			(at 162.56 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5444,7 +5476,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 162.56 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5485,7 +5517,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX52")
+					(reference "MX53")
 					(unit 1)
 				)
 			)
@@ -5502,7 +5534,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971e6")
-		(property "Reference" "D52"
+		(property "Reference" "D53"
 			(at 147.32 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5608,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D52")
+					(reference "D53")
 					(unit 1)
 				)
 			)
@@ -5589,12 +5621,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971ec")
-		(property "Reference" "MX51"
+		(property "Reference" "MX52"
 			(at 148.59 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5614,7 +5646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 148.59 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5655,7 +5687,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX51")
+					(reference "MX52")
 					(unit 1)
 				)
 			)
@@ -5672,7 +5704,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971f5")
-		(property "Reference" "D51"
+		(property "Reference" "D52"
 			(at 133.35 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5746,7 +5778,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D51")
+					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -5759,12 +5791,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f4971fd")
-		(property "Reference" "MX50"
+		(property "Reference" "MX51"
 			(at 134.62 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5784,7 +5816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 134.62 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5825,7 +5857,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX50")
+					(reference "MX51")
 					(unit 1)
 				)
 			)
@@ -5842,7 +5874,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497206")
-		(property "Reference" "D50"
+		(property "Reference" "D51"
 			(at 119.38 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5916,7 +5948,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D50")
+					(reference "D51")
 					(unit 1)
 				)
 			)
@@ -5929,12 +5961,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49720c")
-		(property "Reference" "MX49"
+		(property "Reference" "MX50"
 			(at 120.65 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5954,7 +5986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 120.65 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5995,7 +6027,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX49")
+					(reference "MX50")
 					(unit 1)
 				)
 			)
@@ -6012,7 +6044,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497215")
-		(property "Reference" "D49"
+		(property "Reference" "D50"
 			(at 105.41 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6086,7 +6118,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D49")
+					(reference "D50")
 					(unit 1)
 				)
 			)
@@ -6099,12 +6131,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49721b")
-		(property "Reference" "MX48"
+		(property "Reference" "MX49"
 			(at 106.68 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6124,7 +6156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 106.68 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6197,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX48")
+					(reference "MX49")
 					(unit 1)
 				)
 			)
@@ -6182,7 +6214,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497224")
-		(property "Reference" "D48"
+		(property "Reference" "D49"
 			(at 91.44 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6256,7 +6288,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D48")
+					(reference "D49")
 					(unit 1)
 				)
 			)
@@ -6269,12 +6301,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49722a")
-		(property "Reference" "MX47"
+		(property "Reference" "MX48"
 			(at 92.71 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6294,7 +6326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 92.71 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6335,7 +6367,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX47")
+					(reference "MX48")
 					(unit 1)
 				)
 			)
@@ -6352,7 +6384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f497233")
-		(property "Reference" "D47"
+		(property "Reference" "D48"
 			(at 77.47 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6426,7 +6458,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "D47")
+					(reference "D48")
 					(unit 1)
 				)
 			)
@@ -6439,12 +6471,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005f49723b")
-		(property "Reference" "MX46"
+		(property "Reference" "MX47"
 			(at 78.74 86.741 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6464,7 +6496,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 78.74 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6505,7 +6537,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX46")
+					(reference "MX47")
 					(unit 1)
 				)
 			)
@@ -6700,7 +6732,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6725,7 +6757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 246.38 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6870,7 +6902,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -6895,7 +6927,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-ISO-ROTATED-ReversedStabilizers-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 232.41 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7040,7 +7072,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7065,7 +7097,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 204.47 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7210,7 +7242,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7235,7 +7267,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 190.5 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7380,7 +7412,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7405,7 +7437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 176.53 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7550,7 +7582,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7575,7 +7607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 162.56 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7720,7 +7752,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7745,7 +7777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 148.59 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -7890,7 +7922,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -7915,7 +7947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 134.62 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8060,7 +8092,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8085,7 +8117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 120.65 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8230,7 +8262,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8255,7 +8287,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 106.68 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8400,7 +8432,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8425,7 +8457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 92.71 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8570,7 +8602,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8595,7 +8627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 78.74 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8740,7 +8772,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -8765,7 +8797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 64.77 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9001,7 +9033,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9026,7 +9058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9171,7 +9203,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9196,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9341,7 +9373,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9366,7 +9398,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 204.47 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9511,7 +9543,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9536,7 +9568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 190.5 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9681,7 +9713,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9706,7 +9738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 176.53 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9851,7 +9883,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -9876,7 +9908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 162.56 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10021,7 +10053,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10046,7 +10078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 148.59 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10191,7 +10223,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10216,7 +10248,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 134.62 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10361,7 +10393,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10386,7 +10418,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10531,7 +10563,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10556,7 +10588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 106.68 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10701,7 +10733,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10726,7 +10758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 92.71 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10871,7 +10903,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -10896,7 +10928,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 78.74 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11041,7 +11073,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11066,7 +11098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 64.77 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -11302,7 +11334,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11327,7 +11359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +11504,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11497,7 +11529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-2U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 232.41 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11642,7 +11674,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11667,7 +11699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 218.44 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11812,7 +11844,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -11837,7 +11869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 204.47 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11982,7 +12014,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12007,7 +12039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 190.5 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +12184,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12177,7 +12209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 176.53 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12322,7 +12354,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12347,7 +12379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 162.56 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12492,7 +12524,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12517,7 +12549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12662,7 +12694,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12687,7 +12719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 134.62 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12832,7 +12864,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -12857,7 +12889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 120.65 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13093,7 +13125,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13118,7 +13150,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 92.71 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13263,7 +13295,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13288,7 +13320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 78.74 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13433,7 +13465,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13458,7 +13490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 64.77 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13603,7 +13635,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -13628,7 +13660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 50.8 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13682,12 +13714,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fb4808e")
-		(property "Reference" "MX62"
+		(property "Reference" "MX63"
 			(at 134.62 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13707,7 +13739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-6.25U-ReversedStabilizers-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 134.62 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13748,7 +13780,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX62")
+					(reference "MX63")
 					(unit 1)
 				)
 			)
@@ -13761,12 +13793,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fb57eaa")
-		(property "Reference" "MX59"
+		(property "Reference" "MX60"
 			(at 50.8 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13786,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 50.8 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13827,7 +13859,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX59")
+					(reference "MX60")
 					(unit 1)
 				)
 			)
@@ -13840,12 +13872,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fb58d92")
-		(property "Reference" "MX61"
+		(property "Reference" "MX62"
 			(at 78.74 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13865,7 +13897,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 78.74 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13906,7 +13938,7 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX61")
+					(reference "MX62")
 					(unit 1)
 				)
 			)
@@ -13919,12 +13951,12 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005fb591b2")
-		(property "Reference" "MX60"
+		(property "Reference" "MX61"
 			(at 64.77 104.521 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13944,7 +13976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1.25u"
 			(at 64.77 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13985,7 +14017,86 @@
 		(instances
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
-					(reference "MX60")
+					(reference "MX61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 64.77 92.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15587208-7071-471f-9c01-55dd9fc045d0")
+		(property "Reference" "MX46"
+			(at 64.77 86.741 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1u"
+			(at 64.77 89.0524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe3ae310-05dc-405e-9b53-d0a8e5672be4")
+		)
+		(pin "2"
+			(uuid "a72a5e8b-470c-4ce1-8470-9ca36181f48f")
+		)
+		(instances
+			(project "bakenko_65_iso"
+				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
+					(reference "MX46")
 					(unit 1)
 				)
 			)
@@ -13998,7 +14109,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -14023,7 +14134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1U-NoLED"
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_1u"
 			(at 218.44 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -14065,6 +14176,97 @@
 			(project "bakenko_65_iso"
 				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
 					(reference "MX43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 69.85 96.52 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ddb9a53-5858-4533-8075-6289f10c1c14")
+		(property "Reference" "D47"
+			(at 63.5 95.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 60.96 97.79 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "C81598"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a06a8cb2-7ad0-4fd4-8c1c-e2c0d8dce1be")
+		)
+		(pin "2"
+			(uuid "45ac9f28-c919-4440-a334-a74691128fe5")
+		)
+		(instances
+			(project "bakenko_65_iso"
+				(path "/287514b3-fc8e-4781-96ec-6e4b29b57f7d/00000000-0000-0000-0000-00005f45b9b8"
+					(reference "D47")
 					(unit 1)
 				)
 			)
