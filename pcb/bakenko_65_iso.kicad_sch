@@ -6399,6 +6399,10 @@
 		(uuid "40f30aa4-06bf-4c55-9989-7e09a9c66936")
 	)
 	(no_connect
+		(at 182.88 224.79)
+		(uuid "5fe36f56-dcc1-4ee2-af0a-a22bdd3592a3")
+	)
+	(no_connect
 		(at 182.88 199.39)
 		(uuid "700a347a-6cba-4271-824c-e1707eadb742")
 	)
@@ -6409,10 +6413,6 @@
 	(no_connect
 		(at 182.88 227.33)
 		(uuid "84572568-89a9-4886-8f4c-24872c67c922")
-	)
-	(no_connect
-		(at 182.88 181.61)
-		(uuid "8c74589e-92a8-4a4e-a93a-08f85b3c7c79")
 	)
 	(no_connect
 		(at 182.88 173.99)
@@ -8204,6 +8204,16 @@
 		)
 		(uuid "1eee37b8-0e7d-482b-8d79-1b759c25a866")
 	)
+	(label "P0.31_AIN7_BAT"
+		(at 182.88 186.69 180)
+		(effects
+			(font
+				(size 1.143 1.143)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a271d23-d0f3-482e-83d7-63257c5e536f")
+	)
 	(label "USB_D+"
 		(at 378.46 49.53 180)
 		(effects
@@ -8224,18 +8234,8 @@
 		)
 		(uuid "59b54226-e10a-4331-8c40-623c175f419c")
 	)
-	(label "P0.31_AIN7_BAT"
-		(at 182.88 224.79 180)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify right bottom)
-		)
-		(uuid "70117a10-3d07-4cd7-a090-9ac2e7411298")
-	)
 	(label "P0.14_~{READ_BAT}"
-		(at 182.88 186.69 180)
+		(at 182.88 181.61 180)
 		(effects
 			(font
 				(size 1.143 1.143)
@@ -8506,7 +8506,7 @@
 			)
 		)
 	)
-	(global_label "COL4"
+	(global_label "COL2"
 		(shape input)
 		(at 182.88 219.71 180)
 		(effects
@@ -8704,7 +8704,7 @@
 			)
 		)
 	)
-	(global_label "COL2"
+	(global_label "COL4"
 		(shape input)
 		(at 182.88 260.35 180)
 		(effects
