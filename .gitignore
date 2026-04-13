@@ -37,8 +37,7 @@ fp-info-cache
 **/*-backups/*.zip
 
 # Kicad History
-**/.history/**
-
+**/.history/
 
 # Local project settings
 *.kicad_prl
